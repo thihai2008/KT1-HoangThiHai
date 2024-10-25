@@ -1,0 +1,130 @@
+.container{
+    width: 1200px;
+    margin:auto;
+}
+.left{float: left;}
+.right{float:right;}
+.clear{clear:both;}
+.brading{width: 500px;}
+.nav{width: 700px;}
+.brading .title{
+    color: #4073de;
+    font-size: 35px;
+}
+.nav ul{
+    margin: 0px;
+}
+.nav ul li {
+    float:left;
+    list-style: none;
+    padding: 15px 10px;
+}
+
+.nav ul li:hover{
+    background-color: #4b5de0;
+}
+.nav ul li:hover a{
+    color: white;
+}
+.nav ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#sider img{
+    width: 100%;
+}
+.box{
+    width: 25%;
+}
+.box-content{
+    padding: 0px 15px;
+}
+.box-content div{
+    padding: 15px;
+}
+.box-content div .title{
+    font-size: 35px;
+    color: white;
+}
+.box-content div p{
+    color: white;
+    font-size: 20px;
+}
+.bg-01{
+    background: rgb(255,174,1);
+    background: linear-gradient(0deg, rgba(255,174,1,1)0%,rgba(255,135,21,1)100%);
+}
+div#feature-new{
+    margin-top: -124px;
+    z-index: 999px;
+    display: flex;
+}
+div#feature-new{
+    margin-top: -124px;
+    z-index: 999px;
+    position: sticky;
+}
+#news{margin:30px;}
+.news .box{
+        width: 50%;
+        padding-bottom: 20px;
+}
+.news .box-content img{
+    width: 100%;
+}
+.box-content .box-content-text{
+    background-color: #1c1818;
+    padding: 50px;
+    min-height: 320px;
+}
+.news .box-content .title {
+    font-size: 30px;
+}
+.news .box-content button{
+    background-color: rgb(131,58,180);
+    background: linear-gradient(90deg,rgba(131,58,180,1)0%,rgba(253,29,29,1) 50%,rgba(252,176,69,1)100%);
+    padding: 10px 15px;
+    border-width:0px ;
+}
+.news .box-content button a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#new2{
+    background-image: url(images/betapboi4_REIE.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#new2.box-content{
+    padding: 15px;
+    background-color: #e0127b;
+}
+#new3{
+    padding-top: 50px;
+}
+#new3 .box-content .box-content-text{
+    background: rgb(255,21,21); 
+    background: linear-gradient(0deg, rgba(255,21,21,1) 0%, rgba(255,244,1,1) 100%);
+}
+#new3 ul, #mew3 ul li{
+    margin: 0px;
+}
+#new3 ul li{
+    padding-left: 15px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+#new3 ul{
+    list-style-image: url(images/png-clipart-arrow-symbol-sign-computer-icons-arrow-angle-triangle.png);
+    list-style-position: outside ;
+}
+.new3 .box-content .title {
+    font-size: 30px;
+}
+.box1{
+    width: 45%;
+}
